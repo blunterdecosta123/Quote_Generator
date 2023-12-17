@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(34,195,188);
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vw;
+}
+nav {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: rgb(212 180 223);
+    padding: 23px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(2, 3, 18);
+    transition: all;
+    transition-duration: 500ms;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: rgb(103, 101, 235);
+    font-size:1.02rem;
+    transition: all 0.5s ease-in-out;
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 23px;
+    font-size: 24px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 5px 23px;
+}
+
+nav ul {
+    display: flex;
+}
+
+.container {
+    position:absolute;
+    height:60vh;
+    width:80vw;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    /* background-color: red; */
+}
+
+.container h1
+{
+    text-align:center;
+    font-family:'Noto Sans', sans-serif;
+
+
+
+}
+h2 {
+    margin: 23px 0;
+}
+.logo i{
+    color:rgba(171, 112, 143, 0.594);
+    font-size:1.5rem;
+    font-weight:900px;
+}
+.logo img{
+    margin: 0 4px;
+    height:5vh;
+    display:flex;
+    padding-bottom:7px;
+}
+
+#quote{
+    text-align:center;
+    /* color:white; */
+}
+/* #author{
+    display:flex; 
+    align-self:flex-end;
+} */
+.btn {
+    width: 144px;
+    padding: 5px 8px;
+    font-size: 20px;
+    background: #e0d0f5;
+    color: black;
+    border-radius: 13px;
+    cursor: pointer;
+    position:absolute;
+   
+
+}
+footer div{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    bottom:0;
+    position:absolute;
+    padding:4vh 0;
+    background-color:black;
+    height:4vh;
+    width:100vw;
+    color:white;
+}
+.container div{
+    font-family: 'Poppins',sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis:33.33%;
+    font-size:1.3rem;
+    /* color:white; */
+}
+
+
+@media (max-width: 600px) {
+    
+
+    nav {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    nav ul li {
+        margin: 5px 13px;
+        font-size:1.2rem;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 95vw;
+    }
+    
+    
+}
+
+
+
+
+
+
